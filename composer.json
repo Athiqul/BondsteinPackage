@@ -1,0 +1,20 @@
+{
+    "name": "athiq/bondsteinscrud",
+    "description": "Create a Crud package generate all necessary routes,migrations,controllers and view files",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Athiqul Hasan Momin"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Athiq\\bondsteinscrud\\": "src/"
+        }
+    }
+
+
+
+}
