@@ -13,7 +13,16 @@
         "psr-4": {
             "Athiq\\bondsteinscrud\\": "src/"
         }
+    },
+
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Athiq\\bondsteinscrud\\CrudServiceProvider"
+        ],
+       
     }
+},
 
 
 
