@@ -22,7 +22,7 @@
 
               <tr>
                 <th scope="row">{{$loop->iteration}}</th>
-                <td><a href="{{ route('skill.show',$item->id) }}" class="btn-link text-decoration-none">{{ $item->title }}</a> </td>
+                <td> {{ $item->skills }}</td>
 
                 <td>
                     @if ($item->process=='1')
