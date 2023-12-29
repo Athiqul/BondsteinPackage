@@ -18,8 +18,8 @@
     "extra": {
     "laravel": {
         "providers": [
-            "Athiq\\bondsteinscrud\\CrudServiceProvider"
-        ],
+            "Athiq\\bondsteinscrud\\CrudServiceProvider",
+        ]
        
     }
 },
