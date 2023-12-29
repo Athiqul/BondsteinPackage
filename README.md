@@ -9,11 +9,6 @@ Almost Done . but there is a error happened when package install  ##### Could no
 
   I have done all modules to generate model,controller,views,route appened and migration, failed to Add Command to automatic migrate migration files
 
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-### Learning Laravel
-
 ## packagist Link: https://packagist.org/packages/athiq/bondsteinscrud
 
 ### composer require athiq/bondsteinscrud
