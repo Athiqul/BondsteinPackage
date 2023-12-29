@@ -8,7 +8,11 @@
             "name": "Athiqul Hasan Momin"
         }
     ],
-    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "athiq/bondsteinscrud": "^1.0"
+    }
     "autoload": {
         "psr-4": {
             "Athiq\\bondsteinscrud\\": "src/"
