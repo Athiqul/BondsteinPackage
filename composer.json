@@ -1,16 +1,13 @@
 {
     "name": "athiq/bondsteinscrud",
-    "description": "Create a Crud package generate all necessary routes,migrations,controllers and view files",
+    "description": "Create a Crud package generate all necessary routes, migrations, controllers, and view files",
     "license": "MIT",
-
     "authors": [
         {
             "name": "Athiqul Hasan Momin"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-     "require": {
+    "require": {
         "php": "^8.1.0",
         "illuminate/console": "^10.17",
         "illuminate/filesystem": "^10.17",
@@ -22,16 +19,14 @@
             "Athiq\\bondsteinscrud\\": "src/"
         }
     },
-
     "extra": {
-    "laravel": {
-        "providers": [
-            "Athiq\\bondsteinscrud\\CrudServiceProvider"
-        ]
-       
-    }
+        "laravel": {
+            "providers": [
+                "Athiq\\bondsteinscrud\\CrudServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
 
-
-
-}
